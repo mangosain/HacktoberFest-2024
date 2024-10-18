@@ -8,6 +8,7 @@ public class Q14 {
 
         System.out.println("Enter the year: ");
         int year = sc.nextInt();
+
         if (year % 4 == 0) {
             if (year % 100 == 0) {
                 if (year % 400 == 0)
